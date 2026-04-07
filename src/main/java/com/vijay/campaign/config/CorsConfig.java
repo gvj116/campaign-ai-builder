@@ -1,4 +1,4 @@
-package com.hotstar.campaign.config;
+package com.vijay.campaign.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

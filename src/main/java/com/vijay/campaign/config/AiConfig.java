@@ -1,4 +1,4 @@
-package com.hotstar.campaign.config;
+package com.vijay.campaign.config;
 
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.ai.chat.memory.ChatMemory;

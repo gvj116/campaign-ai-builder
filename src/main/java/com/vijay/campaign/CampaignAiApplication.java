@@ -1,4 +1,4 @@
-package com.hotstar.campaign;
+package com.vijay.campaign;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

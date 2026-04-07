@@ -1,8 +1,8 @@
-package com.hotstar.campaign.service;
+package com.vijay.campaign.service;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.hotstar.campaign.model.FieldMeta;
+import com.vijay.campaign.model.FieldMeta;
 import jakarta.annotation.PostConstruct;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

@@ -1,10 +1,10 @@
-package com.hotstar.campaign.service;
+package com.vijay.campaign.service;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.hotstar.campaign.model.AiExtraction;
-import com.hotstar.campaign.model.CampaignSession;
-import com.hotstar.campaign.model.CampaignSession.State;
-import com.hotstar.campaign.model.FieldMeta;
+import com.vijay.campaign.model.AiExtraction;
+import com.vijay.campaign.model.CampaignSession;
+import com.vijay.campaign.model.CampaignSession.State;
+import com.vijay.campaign.model.FieldMeta;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.ai.chat.client.ChatClient;
@@ -170,7 +170,7 @@ public class CampaignChatService {
             return (confirmReply != null ? confirmReply + "\n\n" : "")
                     + "Campaign submitted successfully!" + idInfo + "\n\nFull response:\n" + apiResponse.toPrettyString();
 
-        } catch (com.hotstar.campaign.exception.LegoWorkflowException e) {
+        } catch (com.vijay.campaign.exception.LegoWorkflowException e) {
             log.error("Campaign submission failed (HTTP {}): {}", e.getStatusCode(), e.getResponseBody());
             session.setState(State.SUBMITTED);
             return "Submission failed (HTTP " + e.getStatusCode() + "): " + e.getResponseBody();

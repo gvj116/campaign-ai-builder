@@ -1,4 +1,4 @@
-package com.hotstar.campaign.exception;
+package com.vijay.campaign.exception;
 
 import lombok.Getter;
 

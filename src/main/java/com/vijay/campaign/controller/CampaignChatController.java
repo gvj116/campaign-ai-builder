@@ -1,8 +1,8 @@
-package com.hotstar.campaign.controller;
+package com.vijay.campaign.controller;
 
-import com.hotstar.campaign.model.ChatRequest;
-import com.hotstar.campaign.model.ChatResponse;
-import com.hotstar.campaign.service.CampaignChatService;
+import com.vijay.campaign.model.ChatRequest;
+import com.vijay.campaign.model.ChatResponse;
+import com.vijay.campaign.service.CampaignChatService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.ResponseEntity;

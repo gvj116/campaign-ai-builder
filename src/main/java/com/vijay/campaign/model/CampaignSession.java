@@ -1,4 +1,4 @@
-package com.hotstar.campaign.model;
+package com.vijay.campaign.model;
 
 import lombok.Data;
 

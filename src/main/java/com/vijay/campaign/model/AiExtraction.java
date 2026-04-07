@@ -1,4 +1,4 @@
-package com.hotstar.campaign.model;
+package com.vijay.campaign.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.Builder;

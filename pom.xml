@@ -11,7 +11,7 @@
         <relativePath/>
     </parent>
 
-    <groupId>com.hotstar</groupId>
+    <groupId>com.vijay</groupId>
     <artifactId>campaign-ai-builder</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>campaign-ai-builder</name>

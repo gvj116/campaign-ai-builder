@@ -1,10 +1,10 @@
-package com.hotstar.campaign.service;
+package com.vijay.campaign.service;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
-import com.hotstar.campaign.model.CampaignSession;
+import com.vijay.campaign.model.CampaignSession;
 import jakarta.annotation.PostConstruct;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

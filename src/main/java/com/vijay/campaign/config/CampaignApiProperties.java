@@ -1,4 +1,4 @@
-package com.hotstar.campaign.config;
+package com.vijay.campaign.config;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;

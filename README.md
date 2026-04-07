@@ -31,7 +31,9 @@ User: "confirm"
 → Campaign draft created in the ad platform ✓
 ```
 
-**Built and deployed internally at Hotstar (Disney+ Hotstar) for the AdTech operations team.**
+**Built and deployed internally at a leading Indian OTT platform (100M+ users) for the AdTech operations team.*
+
+*
 
 ---
 
