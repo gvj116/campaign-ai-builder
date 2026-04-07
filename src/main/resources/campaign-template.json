@@ -1,0 +1,122 @@
+{
+  "campaignType": "PROMO",
+  "demandSource": "OPERATIONS_MANAGER",
+  "dealType": "GUARANTEE",
+  "demandChannel": "DIRECT_SALES",
+  "countryGroupId": 1,
+  "brandId": "",
+  "name": "",
+  "externalUserId": "",
+  "action": "OFF",
+  "servingPlatform": "GEC",
+  "overrideRules": { "overrideFrequencyCap": false },
+  "objective": "BRAND_AWARENESS",
+  "ownerReferenceId": "",
+  "frequencyCaps": [],
+  "systemLabels": [],
+  "adSets": [
+    {
+      "name": "",
+      "customId": "",
+      "action": "OFF",
+      "streamCategory": "ENTERTAINMENT",
+      "placementStrategy": "AUTOMATIC",
+      "adPlacements": [],
+      "customAdWeightsEnabled": false,
+      "overrideRules": {
+        "overrideFrequencyCap": false,
+        "targetingOverrideRules": {
+          "overrideContentEntity": false,
+          "overrideSubscription": false,
+          "overridePlatform": false
+        }
+      },
+      "schedule": {
+        "dateRange": {
+          "startDate": "1970-01-01T00:00:00.000Z",
+          "endDate": "1970-01-01T23:59:00.000Z"
+        }
+      },
+      "deliveryDetail": {
+        "priority": 5,
+        "buyType": "RESERVED",
+        "billingMetric": null,
+        "billingMetricTarget": null,
+        "soldRate": null,
+        "sovPercentage": null,
+        "optimisingMetric": null,
+        "dailyCap": null,
+        "dailyCapType": null,
+        "impressionFrontLoading": null,
+        "breakNumbers": [],
+        "slots": ["ANY"]
+      },
+      "trackers": [],
+      "frequencyCaps": [],
+      "ads": [
+        {
+          "adType": "VIDEO",
+          "action": "OFF",
+          "name": "",
+          "weight": null,
+          "skippable": false,
+          "skipOffset": null,
+          "progressOffset": null,
+          "adLength": null,
+          "scheduleEnabled": false,
+          "customAdId": "",
+          "streamType": "VOD",
+          "platform": [],
+          "trackers": [],
+          "creativeRequest": {
+            "type": "VIDEO",
+            "ownerReferenceId": "",
+            "videoAssetId": null,
+            "displayType": "",
+            "creativeMetaDataRequest": { "language": null },
+            "variationType": "STANDARD"
+          },
+          "metaData": {
+            "languages": [],
+            "type": "COMPANION",
+            "companionUnit": "",
+            "companionUnitType": null,
+            "landingPage": null,
+            "deepLinkUrl": null
+          },
+          "schedule": {
+            "startDate": "1970-01-01T00:00:00.000Z",
+            "endDate": "1970-01-01T23:59:00.000Z"
+          },
+          "frequencyCaps": [],
+          "supportedPlacements": [
+            "BUMPER",
+            "MIDROLL",
+            "BILLBOARD_HOME",
+            "BILLBOARD_TV",
+            "BILLBOARD_MOVIES",
+            "BILLBOARD_SPORTS"
+          ],
+          "overrideRules": {
+            "overrideFrequencyCap": false,
+            "overrideContentLanguage": false
+          }
+        }
+      ],
+      "targetingDetail": {
+        "demo": [],
+        "geo": [],
+        "device": [],
+        "interests": { "include": [], "exclude": [] },
+        "customTags": { "exclude": [], "include": [] },
+        "operatingSystems": [],
+        "subscriptionTypes": { "include": [], "exclude": [] },
+        "customAudiences": { "exclude": [], "include": [] },
+        "languages": null,
+        "mobileCarriers": [],
+        "dayParts": [],
+        "content": []
+      }
+    }
+  ]
+}
