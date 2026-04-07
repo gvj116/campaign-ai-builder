@@ -9,8 +9,8 @@
       {"label": "PG",                  "value": "PG"},
       {"label": "PMP",                 "value": "PMP"},
       {"label": "Open Exchange",       "value": "OE"},
-      {"label": "Promo",               "value": "HOTSTAR_PROMO"},
-      {"label": "BLS",                 "value": "HOTSTAR_BLS"},
+      {"label": "Promo",               "value": "PROMO"},
+      {"label": "BLS",                 "value": "BLS"},
       {"label": "Unknown",             "value": "UNKNOWN"}
   ]},
   { "path": "demandSource",                                                  "label": "Demand Source",               "askUser": true,  "options": ["OPERATIONS_MANAGER", "SELF_SERVE", "ONLINE_SALES", "API_PARTNER", "YUKTA"] },

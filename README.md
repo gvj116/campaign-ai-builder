@@ -226,7 +226,7 @@ Configure in the Settings panel:
 
 ```
 src/main/
-├── java/com/hotstar/campaign/
+├── java/com/vijay/campaign/
 │   ├── CampaignAiApplication.java         Entry point
 │   ├── config/
 │   │   ├── AiConfig.java                  Spring AI ChatClient setup with memory
@@ -314,7 +314,7 @@ The LLM returns only a flat JSON diff:
 {
   "reply": "Done! Set to promo channel with non-guaranteed deal.",
   "updates": {
-    "demandChannel": "HOTSTAR_PROMO",
+    "demandChannel": "PROMO",
     "dealType": "NON_GUARANTEE"
   },
   "readyToSubmit": false

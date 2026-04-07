@@ -13,17 +13,17 @@ import java.io.IOException;
  * Represents a field option with a human-friendly label and the exact API enum value.
  *
  * Supports two formats in campaign-fields.json:
- *   Plain string:  "PROMO"
- *     → label="PROMO", value="PROMO"
- *   Object:        {"label": "Promo", "value": "HOTSTAR_PROMO"}
- *     → label="Promo", value="HOTSTAR_PROMO"
+ *   Plain string:  "RESERVED"
+ *     → label="RESERVED", value="RESERVED"
+ *   Object:        {"label": "Non-Guaranteed", "value": "NON_GUARANTEE"}
+ *     → label="Non-Guaranteed", value="NON_GUARANTEE"
  */
 @Data
 @JsonDeserialize(using = OptionMeta.Deserializer.class)
 public class OptionMeta {
 
-    private String label;  // UI display name (e.g. "Promo", "Open Exchange")
-    private String value;  // Exact API enum value (e.g. "HOTSTAR_PROMO", "OE")
+    private String label;  // UI display name (e.g. "Non-Guaranteed", "Open Exchange")
+    private String value;  // Exact API enum value (e.g. "NON_GUARANTEE", "OE")
 
     /** Returns the display label, falling back to value if label is not set. */
     public String getDisplayLabel() {
@@ -42,7 +42,7 @@ public class OptionMeta {
                 o.value = node.asText();
                 o.label = node.asText();
             } else {
-                // Object: {"label": "Promo", "value": "HOTSTAR_PROMO"}
+                // Object: {"label": "Non-Guaranteed", "value": "NON_GUARANTEE"}
                 o.value = node.path("value").asText();
                 o.label = node.has("label") ? node.path("label").asText() : o.value;
             }
